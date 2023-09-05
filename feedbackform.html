@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF=8">
+        <meta name="viewport" content="wu=idth-device-width,initial-scale-1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <script>
+            function hello() {
+               alert("Thank You!");
+            }
+        </script>
+        <style>
+            .bg-color{
+                background-color: #88F7CC;
+                background-size: auto;
+            }
+        </style>
+    </head>
+    <body class="bg-color">
+        <h1>Feedback Form</h1>
+        <form action="mailto:prashanthreddyburra1@gmail.com" method="post" enctype="text/plain">
+            <label for="Rating">How do you rate your overall experience</label><br />
+            <div>
+                <input type="radio" id="bad" name="Rating" value="bad">
+                <label for="Bad">Bad</label>
+                <input type="radio" id="average" name="Rating" value="average">
+                <label for="Average">Average</label>
+                <input type="radio" id="good" name="Rating" value="good">
+                <label for="Good">Good</label>
+            </div> <br />
+            <label for="fname"> FullName*</label>
+            <input type="text" name="Full name" id="fname" autocomplete="off" autocapitalize="onclick" required><br />
+            <br/><label>Email*</label>
+            <input type="email" name="Email" id="email" required  autocomplete="off"> <br/>
+            <br/><label for="age">Age*</label>
+            <input type="text" name="Age" id="age" autocomplete="off" required> <br/>
+            <br /><label>PhoneNumber*</label>
+            <input type="text" name="Phone number" id="phno" required autocomplete="off"> <br />
+            <br/><label for="feedback">Feedback*</label><br>
+            <textarea id="feedback"  name="Feedback" rows="5" cols="50" autocomplete="off" required></textarea><br />
+            <br/> <button value="submit" onclick="hello()">submit</button>
+
+        </form>
+    </body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF=8">
+        <meta name="viewport" content="wu=idth-device-width,initial-scale-1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <script>
+            function hello(){
+                alert("Ok");
+            }
+        </script>
+    </head>
+    <style>
+        .box{
+            background-color: aqua;
+        }
+        .container{
+            height: 300px;
+            width: 500px;
+        }
+        .heading{
+            color: black;
+            font-weight: bold;
+            font-style: normal;
+        }
+        .para{
+            color: black;
+            font-style: normal;
+        }
+    </style>
+    <body class="box">
+        <div class="container">
+            <h1 class="heading">Suspect Details</h1>
+            <form action="mailto:prashanthreddyburra1@gmail.com" method="post" enctype="text/plain">
+                <label for="suspect name">Suspect Name*</label><br/>
+                <br/><input type="text" required name="Suspect Name" pattern="[A-Za-z]{3,}" autocomplete="off"><br />
+                <br/><label>Suspect Details</label><br/>
+                <textarea name="Suspect Details" required autocomplete="off" row="5" columns="50"></textarea>
+                <br/><br/><button onclick="hello()">Sumbit</button>
+            </form>
+        </div>
+    </body>
+</html>

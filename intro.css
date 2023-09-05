@@ -1,0 +1,45 @@
+.intro-slider{
+    position: fixed;
+    left: 0px;
+    width: 250px;
+    height: 100vh;
+    margin-top: -27px;
+    padding-top: -10px;
+    text-align: center;
+}
+@media only screen and (min-device-width: 100px) {
+    body {
+        background-image: url("https://tse3.mm.bing.net/th?id=OIP.uarHbizDS1OsuLQxepoZogHaDF&pid=Api&P=0&h=180");
+        background-size: cover;
+    }
+}
+.d-style{
+    text-align: center;
+    font-size: 40px;
+    color: aliceblue;
+    background-color: cadetblue;
+    line-height: 100px;
+    width: 250px;
+    padding-top: -100px;
+    margin-left:-10px;
+    margin-top: -5px;
+}
+.introheadingimg{
+    height: 30px;
+    width: 30px;
+    margin: 2px;
+}
+.intro-slider{
+    position: fixed;
+    left: 0px;
+    width: 250px;
+    height: 100vh;
+    margin-bottom:9px;
+    padding-top: 5px;
+    text-align: center;
+    background-color: #7286D3;
+    color: white;
+}
+.hr{
+    color:orange;
+}

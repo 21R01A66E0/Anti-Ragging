@@ -1,0 +1,65 @@
+.aboutus{
+    background-color: darkcyan;
+}
+.aboutusheading{
+    color:orange;
+    text-align: center;
+    font-size: 80px;
+    font-weight: bold;
+    font-style: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration:dotted;
+    text-decoration-color: white;
+}
+.about{
+    width: auto;
+}
+.aboutuspara{
+    color:white;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: normal;
+    color:white;
+    width: auto;
+}
+.punish{
+    background-color: lightskyblue;
+}
+.direction{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    border-width: 2px;
+}
+.punishheading{
+    color:orange;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+}
+.punishpara{
+    width: 900px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: normal;
+    padding: 20px;
+
+}
+.para1font{
+    font-size: 25px;
+}
+.parafont{
+    font-size:25px;
+    width: 900px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: normal;
+    padding: 20px;
+    background-size: auto;
+}

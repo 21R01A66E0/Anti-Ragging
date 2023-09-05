@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .com-body{
+                background-color: #F5D6EB;
+                color: black;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: bold;
+            }
+            .button{
+                color: darkgreen;
+                width: 150px;
+                height: 30px;
+            }
+        </style>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Complaint</title>
+        <script>
+            function hello(){
+                alert("ok");
+            }
+        </script>
+        <script>
+            function goToAnotherHTML5(){
+                window.location.href="suspect.html";
+            }
+        </script>
+    </head>
+    <body class="com-body">
+        <h1>Complaint Form</h1>
+        <form action="mailto:prashanthreddyburra1@gmail.com" method="post" enctype="text/plain">
+            <label for="fname"> First Name :</label>
+            <input type="text" name="First name" id="fname" placeholder="Enter your First name" autocomplete="off" required> <br />
+            <br/> <label> Middle Name   :</label>
+            <input type="text" name="Middle name" id="mname" placeholder="Enter your Middle name" autocomplete="off"> <br />
+            <br /> <label> Last Name    : </label>
+            <input type="text" id="lname" name="Last name" placeholder="Enter your Last name" required autocomplete="off"> <br />
+            <br /> <label> Roll No   :</label>
+            <input type="text" id="roll" name="Rollno" placeholder="Enter your Roll No" required autocomplete="off"> <br />
+            <br /> <label>Phone Number  :</label>
+            <input type="text" id="phno" name="Phone number" placeholder="Enter your Phone number" required autocomplete="off"> <br />
+            <br/> <label>Email:</label> 
+            <input type="email" id="email" name="Email" placeholder="Enter your Email" required  autocomplete="off"> <br/>
+            <br/> <label>Date Time:</label>
+            <input type="datetime-local" id="date" name="Date Time" required> <br/>
+            <br /><label>subject:</label>
+            <input type="text" name="Subject" id="subject" placeholder="subject" required autocomplete="off"> <br />
+            <br/><label for="complaint">Complaint:</label><br>
+            <textarea id="complaint" placeholder="raise complaint" name="Complaint" rows="5" cols="40" required></textarea><br>
+            <div>
+                    <label for="Gender">Gender</label><br />
+                        <br/><div>
+                            <input type="radio" id="male" name="Gender" value="male">
+                            <label for="male">Male</label>
+                            <input type="radio" id="female" name="Gender" value="female">
+                            <label for="female">Female</label>
+                            <input type="radio" id="other" name="Gender" value="other">
+                            <label for="other">prefer not to say</label>
+                        </div>    
+        
+                    </div>
+                <br/> <button value="submit" onclick="hello()" class="button">submit</button><br />
+                <br/><label>If Available</label><br/>
+                <br/><button class="button" onclick="goToAnotherHTML5()">Suspect Details</button>
+        </form>
+    </body>
+</html>
